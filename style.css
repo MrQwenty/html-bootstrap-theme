@@ -1,0 +1,112 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+  width:100%;
+  height:100px;
+  position: relative;
+}
+
+.bg_dark{
+  background: #2c3e50;
+}
+
+.color_white{
+  color:white;
+}
+  /* HEADER NAVBAR */
+.navbar{
+  width:100%;
+}
+
+.header_line_height{
+  line-height: 100px;
+}
+
+.header_left_font{
+  font-size: 35px;
+}
+
+.header_right_font{
+ font-size: 18px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.navbar li{
+  cursor: pointer;
+  padding-right:20px;
+}
+
+.navbar li:hover{
+  color:#18bc9c
+}
+
+/* JUMBOTRON */
+.jumbotron{
+  width: 100%;
+  height:800px;
+  position: relative;
+}
+
+.bg_acquamarine{
+  background: #18bc9c;
+}
+
+.jumbo_content_center{
+  position: absolute;
+  top: 70%;
+  left:70%;
+  transform: translate(-70%,-70%);
+}
+
+/* avevo creato delle classi specifiche ma non le prendeva, quindi ho ripiegato così: */
+.jumbotron_content p{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.hr_star{
+  width:100px;
+  font-weight: bold;
+  border:2px solid;
+}
+
+.fa-star{
+  font-size: 45px;
+}
+
+.jumbo_list li{
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.jumbo_list li:nth-of-type(1):after{
+  content: "-";
+  padding-left:10px;
+}
+
+.jumbo_list li:nth-of-type(2):after{
+  content: "-";
+  padding-left:10px;
+}
+
+/* FIRST SECTION */
+
+.first_section{
+  width: 100%;
+  height:800px;
+}
+
+.bg_white{
+  background: white;
+}
+
+.first_section_content_top p{
+  font-size:50px;
+  font-weight: bold;
+}
